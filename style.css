@@ -114,6 +114,29 @@ nav ul li:hover {
 .page-content .projects-section .projects .projects h4 {
     margin: 0;
 }
+footer {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #c6264e;
+    color:white;
+    padding: 10px;
+}
+footer .colonne a {
+    text-decoration: none;
+    color: white;
+    
+}
+footer .colonne p {
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+footer .colonne p:hover {
+    color: black;
+}
 @media screen and (max-width: 700px) {
     nav {
         justify-content: center;
@@ -124,5 +147,11 @@ nav ul li:hover {
     .page-content header {
         margin-top: 10%;
         max-width: 100%;
+    }
+    footer {
+        justify-content: flex-start;
+    }
+    footer /column {
+        width: 80%;
     }
 }
